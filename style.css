@@ -1,0 +1,108 @@
+*{
+	margin: 5;
+}
+
+.main_wrapper{
+	background-color: floralwhite;
+	width: 100%;
+	height: 500px;
+	float: left;
+	
+}
+
+ul{
+	list-style-type:none ;
+	width: 100%;
+	height: 100px;
+	background-color: beige;
+	float: left;
+	padding: 0;
+	margin: 5;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	float: left;
+	text-decoration: none;
+	padding: 10px 200px 20px 108px ;
+	color: whitesmoke;
+	background-color: black;
+
+}
+ li a:hover{
+ 	background-color: beige;
+ 	color: #251749 ;
+ }
+
+ li.active a{
+ 	background-color: beige;
+ 	color: black;
+ }
+
+ table{
+ 	width: 100%;
+ 	border-collapse: collapse;
+ }
+
+ th, td{
+ 	border: 1px solid black;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	font-family: Franklin Gothic
+ 	padding:20px;
+
+
+
+ }
+table{
+	width: 100;
+	border-collapse: collapse;
+}
+
+
+}
+  th:nth-child(1){
+	background-color:darkblue;
+  }
+
+ td:nth-child(1){
+ 	background-color: grey;
+ }
+ 	 th:nth-child(2){
+ 	background-color: pink ;
+
+ }
+ td:nth-child(2){
+ 	background-color: grey;
+}
+
+th:nth-child(3){
+ 	background-color: orange;
+
+}
+
+td:nth-child(3){
+	background-color: grey;
+}
+
+
+th:nth-child(4){
+	background-color: green;
+}
+
+td:nth-child(4){
+	background-color: grey;
+}
+}
+
+iframe{
+	border: none;
+}
+
+button{
+	color: black;
+	margin left: 5px;
+}
